@@ -1,0 +1,63 @@
+J.A.R.V.I.S INSTALLER - QUICK SETUP CHECKLIST
+==============================================
+
+PRE-INSTALLATION REQUIREMENTS:
+□ Windows 10/11 (32-bit or 64-bit)
+□ Python 3.10 installed (with "Add to PATH" checked)
+□ Git for Windows installed
+□ Internet connection available
+
+REQUIRED FILES IN INSTALLER FOLDER:
+□ install_jarvis.bat (main installer)
+□ README.md (documentation)
+□ PyAudio-0.2.11-cp310-cp310-win_amd64.whl (64-bit PyAudio)
+□ PyAudio-0.2.11-cp310-cp310-win32.whl (32-bit PyAudio)
+□ portaudio/portaudio.dll (64-bit PortAudio library)
+□ portaudio/portaudio_.dll (32-bit PortAudio library)
+
+VERIFICATION COMMANDS:
+□ Test Python: py -3.10 --version
+□ Test Git: git --version
+
+INSTALLATION STEPS:
+1. □ Verify all files are present
+2. □ Run install_jarvis.bat
+3. □ Select installation directory
+4. □ Choose installation options
+5. □ Wait for completion
+
+INSTALLATION OPTIONS:
+□ Option 1: Run JARVIS after install
+□ Option 2: Delete installer after install  
+□ Option 3: Just install and exit (default)
+
+TROUBLESHOOTING:
+□ Run as administrator if permission errors
+□ Check antivirus isn't blocking installer
+□ Ensure selected directory has write permissions
+□ Verify internet connection for package downloads
+
+DOWNLOAD LINKS:
+- Python 3.10: https://www.python.org/downloads/release/python-3100/
+- Git for Windows: https://git-scm.com/download/win
+- PyAudio wheels: https://pypi.org/project/PyAudio/#files
+- PortAudio: http://www.portaudio.com/download.html
+
+AFTER INSTALLATION:
+□ Run J.A.R.V.I.S using start_jarvis.bat
+□ Test voice recognition features
+□ Verify GUI elements work correctly
+
+FOLDER STRUCTURE AFTER INSTALL:
+J.A.R.V.I.S/
+├── JARVIS.py
+├── JarvisUi.py
+├── requirements.txt
+├── venv/
+├── start_jarvis.bat
+└── [other files]
+
+SUPPORT:
+- Check README.md for detailed troubleshooting
+- Verify all pre-requisites are met
+- Ensure all required files are in installer folder
